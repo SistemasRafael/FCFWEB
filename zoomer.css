@@ -1,0 +1,19 @@
+
+ul.thumb {
+    float: left;
+    list-style: none;
+    margin: 0; 
+    width: 800px;
+}
+ul.thumb li {
+    margin: 0; 
+    padding: 5px;
+    float: left;
+    position: relative;
+    width: 160px;
+    height: 120px;
+}
+ul.thumb li img.hover {
+    margin-top:0px; 
+    border: none;
+}

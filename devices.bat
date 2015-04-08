@@ -1,0 +1,24 @@
+@ECHO OFF
+IF EXIST D: echo D
+IF EXIST E: echo E
+IF EXIST F: echo F
+IF EXIST G: echo G
+IF EXIST H: echo H
+IF EXIST I: echo I
+IF EXIST J: echo J
+IF EXIST K: echo K
+IF EXIST L: echo L
+IF EXIST M: echo M
+IF EXIST N: echo N
+IF EXIST O: echo O
+IF EXIST P: echo P
+IF EXIST Q: echo Q
+IF EXIST R: echo R
+IF EXIST S: echo S
+IF EXIST T: echo T
+IF EXIST U: echo U
+IF EXIST V: echo V
+IF EXIST W: echo W
+IF EXIST X: echo X
+IF EXIST Y: echo Y
+IF EXIST Z: echo Z

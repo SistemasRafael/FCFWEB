@@ -1,0 +1,677 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10pt;
+    background-color: #CCCCCC;
+}
+
+#nomcli {
+    background-image: url('./images/datos.png');
+    background-repeat: no-repeat;
+}
+
+#tF {
+    background-image: url('./images/tam.png');
+    background-repeat: no-repeat;
+}
+
+#header {
+    position: fixed;
+    width: 98%;
+    top: -1px;
+    aling: left;
+    border: 2px solid #009925;
+    border-radius: 8px;
+    background-color: #009925;
+}
+
+#directorio {
+    position: fixed;
+    width: 25%;
+    top: 80px;
+    aling: left;
+    border: 2px solid #009925;
+    border-radius: 8px;
+    background-color: #FFFFFF;
+}
+
+#totalFotos {
+    position: fixed;
+    height: 40px;
+    margin-left: 45%;
+    font-size: 20px;
+    margin-top: -5%;
+}
+
+#dirant {
+    position: fixed;
+    width: 20%;
+    top: 150px;
+    margin-left: 4%;
+    border-radius: 8px;
+}
+
+#content {
+    width: 95%;
+    top: 50px;
+}
+
+#contenido {
+    width: 69%;
+    border: 0px;
+    text-align: right;
+    margin-right: 0px;
+    margin-left: 31%;
+    margin-top: -90px;
+}
+
+.fotos {
+    width: 1024px;
+}
+
+.ffn {
+    width: 250px;
+    overflow: hidden;
+    font-size: 8pt;
+    font-weight: bold;
+}
+
+
+#dirback {
+    display: block;
+    float: left;
+
+}
+
+#paginacion {
+    display: block;
+    float: right;
+}
+
+#gridppal {
+    border: 2px solid #009925;
+    border-radius: 8px 8px 8px 8px;
+    display: block;
+    float: left;
+    margin-left: 0;
+    margin-top: 0;
+    text-align: center;
+    /*    width: 170%;*/
+}
+
+.nuevotile {
+    float: right;
+    border: solid brown 1px;
+    margin: 2px;
+    font-size: 12px;
+    text-align: right;
+    font-weight: bold;
+    display: block;
+}
+
+.nuevotile p {
+    display: block;
+    /*border: 1px solid red;*/
+}
+
+#allphotos {
+    float: left;
+    /*  border: 1px solid #009925;*/
+}
+
+#divImage {
+    float: left;
+    border: 2px solid black;
+}
+
+#linkToImage {
+    /*border: 1px solid yellowgreen;*/
+    margin-right: 38px;
+    margin-top: 120px;
+}
+
+#totalFotosSel {
+    background-color: azure;
+}
+
+#totalfotos p {
+    color: white;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+#rezisePhoto {
+    border: 2px solid brown;
+    height: 420px;
+    width: 800px;
+}
+
+#radioBtns {
+    color: white;
+    font-size: 15px;
+    font-family: Century Gothic, Century Gothic;
+    font-weight: bold;
+    text-align: center;
+    position: absolute;
+    left: 490px;
+    top: 140px;
+}
+
+
+#seleccion {
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: -50px;
+    position: relative;
+    left: 490px;
+    top: 140px;
+}
+/* Pagina de Detalle de Ventas */
+
+#detalleVenta {
+    border:2px solid black;
+    height:400px;
+    left:288px;
+    overflow-x:hidden;
+    overflow-y:scroll;
+    position:fixed;
+    top:132px;
+    width:700px;
+}
+
+#dirActual {
+    margin-top: 10px;
+}
+
+#tablaDetalleVenta {
+    width: 700px;
+    max-height: 400px;
+    border: 1px solid #D9D5BE;
+    background: white;
+    border-collapse: collapse;
+    font-size: 14px;
+    border-radius: 5px;
+    position: relative;
+}
+
+#tablaDetalleVenta th {
+    background-color: azure;
+    height: 20px;
+}
+
+#tablaDetalleVenta td {
+    border: solid black 1px;
+    text-align: center;
+    height: 20px;
+}
+
+#tablaDetalleVenta tr:nth-child(odd) {
+    background-color: #eee;
+}
+
+#tablaDetalleVenta tr:nth-child(even) {
+    background-color: #fff;
+}
+
+
+
+#tableVta td {
+    padding: 2px;
+}
+
+#detalleTxtTotal {
+    width: 175px;
+    font-size: 24px;
+    font-weight: bold;
+    position: absolute;
+    top: 150px;
+    left: 60px;
+    text-align: center;
+}
+
+#detalleTxtTotal span {
+    font-size: 48pt;
+}
+
+/*
+#tablaDetVta tr:hover{
+    background-color: #D9D5BE;
+}
+*/
+
+
+
+#errorPedidoVacio {
+    font-size: 32px;
+}
+
+#ticket {
+    /*border: 2px solid #009925;*/
+    position: fixed;
+    top: 300px;
+    left: 450px;
+}
+
+#contTicket {
+    text-align: left;
+    margin-left: 45%;
+    margin-top: 25%;
+}
+
+#divDispositivos {
+    float: left;
+    margin-left: 495px;
+}
+
+#divDispositivos div {
+    float: left;
+    margin-left: 10px;
+}
+
+.headerDispositivos {
+    display: inline-block;
+    float: left;
+    margin-left: 100px;
+}
+
+#textHeaders {
+    margin-left: 420px;
+}
+
+#btnInicio {
+    display: inline-block;
+    position: absolute;
+    top: 600px;
+    left: 250px;
+}
+
+#botonIn {
+    background-image: url("./images/btncomenzar.png");
+    border-radius: 22px;
+    margin-left: 45%;
+    padding: 15px 139px 32px;
+}
+
+#boton {
+    margin-left: -36px;
+    padding: 20px 105px 15px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #FF9900;
+    background-image: url('./images/boton.png');
+    border-radius: 20px;
+}
+
+
+#botonM {
+    margin-left: -91px;
+    padding: 133px 32px 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #FF9900;
+    background-image: url('./images/memorias.png');
+    border-radius: 20px;
+    background-repeat: no-repeat;
+}
+
+#botonB {
+    margin-left: 34px;
+    padding: 133px 32px 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #FF9900;
+    background-image: url('./images/bluetooth.png');
+    border-radius: 20px;
+    background-repeat: no-repeat;
+}
+
+/*#boton:hover{
+    background-image: url('./images/4x6.png');
+}*/
+
+#txtNombre {
+    font-size: 20px;
+    font-family: Century Gothic, Century Gothic;
+    text-align: center;
+    padding: 15px 25px;
+    border-radius: 10px;
+    position: absolute;
+    top: 200px;
+    left: 450px;
+}
+
+#titulo {
+    font-size:20px;
+    font-family: Century Gothic, Century Gothic;
+    font-weight: bold;
+    left:391px;
+    position:fixed;
+    text-align:center;
+    top:118px;
+    width:416px;
+    height: 50px;
+    color: white;
+    padding-top: 15px;
+}
+
+#instrucciones{
+    height:457px;
+    left:307px;
+    position:fixed;
+    top:183px;
+    width:543px;
+}
+
+.txtInstrucciones{
+    font-size: 20px;
+    font-family: Century Gothic, Century Gothic;
+    text-align: center;
+    color: black;
+    position: relative;
+    top: 25px;
+    left: 25px;
+}
+
+#botonS {
+    background-image: url("./images/btn_siguiente.png");
+    border-radius: 20px 20px 20px 20px;
+    padding: 23px 141px;
+    position: absolute;
+    top: 280px;
+    left: 440px;
+}
+
+#btnTransferencia {
+    bottom:5px;
+    position:fixed;
+    right:260px;
+    top: 545px;
+}
+
+#btnTam {
+    text-align: center;
+    margin-top: 15%;
+}
+
+#btnMed{
+    text-align: left;
+    margin-top: 15%;
+}
+
+#nomC {
+    text-align: center;
+    margin-left: 15%;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    margin-top: 20%;
+}
+
+#fotosBody {
+    background-image: url('./images/fotos.png');
+    background-color: #DCDCDC;
+    background-repeat: no-repeat;
+}
+
+#imgFotos {
+    position: fixed;
+    width: 100%;
+    top: -1px;
+    align: center;
+
+}
+
+#index {
+    background-image: url('./images/index.png');
+    background-repeat: no-repeat;
+}
+
+#detacomp {
+    background-image: url('./images/orden.png');
+    background-color: #DCDCDC;
+    background-repeat: no-repeat;
+}
+
+#venta {
+    background-image: url('./images/exit.png');
+    background-repeat: no-repeat;
+}
+
+#btnImp {
+    padding: 29px 140px 15px;
+    border-radius: 18px;
+    background-image: url('./images/btn_procesa.png');
+    position: absolute;
+    top: 670px;
+    left: 720px;
+}
+
+#btnAtras {
+    position:fixed;
+    left:280px;
+    top: 550px;
+}
+
+#enviar {
+    margin-left: 25%;
+}
+
+#btnFinalizar {
+    width: 139px;
+    position: fixed;
+    top: 150px;
+    left: 172px;
+}
+
+#reimprimirTicket {
+    position: fixed;
+    top: 500px;
+    left: 400px;
+}
+
+
+#detectando {
+    background-image: url('./images/cargandodispositivo.png');
+    background-repeat: no-repeat;
+}
+
+#errNoImg {
+    margin-left: 45px;
+    display: inline-block;
+}
+
+.procesandoPedido {
+    z-index: 30;
+    width: 320px;
+    height: 240px;
+    position: fixed;
+    top: 300px;
+    left: 400px;
+    background-color: #ccc;
+    border-radius: 18px;
+    border: solid black 5px;
+    padding-top: 20px;
+}
+
+.imagenProcesoPedido {
+    position: absolute;
+    left: 60px;
+    top: 60px;
+}
+
+.mensageProcesoPedido {
+    text-align: center;
+    position: absolute;
+    top: 100px;
+    font-size: 24px;
+    font-weight: bold;
+
+}
+
+.imggrande {
+    display: none;
+    position: absolute;
+
+}
+
+/* Pagina Fotos */
+#bodyFotos {
+    background-image: url('./images/fondo_fotos.png');
+    background-repeat: no-repeat;
+}
+
+#bodySeleccion{
+    background-image: url('./images/seleccionar.png');
+    background-repeat: no-repeat;
+}
+
+#bodyMedio{
+    background-image: url('./images/bluetooth2.png');
+    background-repeat: no-repeat;
+}
+
+
+#botonesDerechaArriba {
+    position: absolute;
+    top: 0;
+    left: 475px;
+    vertical-align: top;
+}
+
+#txtPaginacion{
+    height: 27px;
+    width: 50px;
+    text-align: center;
+    font-size: 24px;
+    background-color: #CCCCCC;
+    border-radius: 5px;
+    position: relative;
+    top: 4px;
+}
+
+#botonesDerechaAbajo {
+    position: absolute;
+    top: 50px;
+    left: 580px;
+    width: 300px;
+}
+
+
+#irA {
+    display: inline-block;
+    float: left;
+    margin-left: 69%;
+    font-weight: bold;
+}
+
+.linkGrande img {
+    max-width: 180px;
+    max-height: 120px;
+}
+
+.linkGrande:hover {
+    cursor: pointer;
+}
+
+#containerFotos {
+    position: fixed;
+    top: 115px;
+    left: 0;
+    width: 980px;
+    height: 610px;
+    overflow: hidden;
+}
+
+#pieFotos {
+    width: 960px;
+    height: 44px;
+    position: fixed;
+    top: 722px;
+    left: 0;
+}
+
+#pieTotalFotos {
+    position: relative;
+    font-family: Century Gothic, Century Gothic;
+    top: 2px;
+    left: 30px;
+    color: white;
+    font-size: 32px;
+}
+
+#piePaginacion {
+    position: absolute;
+    top: 2px;
+    right: 20px;
+    color: white;
+    font-size: 32px;
+    font-family: Century Gothic, Century Gothic;
+}
+
+.fotoTile {
+    width: 189px;
+    height: 195px;
+    float: left;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    /*border: solid black 1px;*/
+}
+
+.fotoThumb {
+    width: 160px;
+    height: 120px;
+    padding: 2px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #f5f5f5;
+}
+
+.fotoInfo {
+    width: 160px;
+    height: 20px;
+    font-size: 8pt;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.botonesFoto {
+    width: 180px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.datanumfotos {
+    width: 80px;
+    font-size: 32px;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.btnminus {
+    width: 40px;
+    height: 35px;
+    font-size: 24px;
+}
+
+.btnplus {
+    width: 40px;
+    height: 35px;
+    font-size: 24px;
+}
+
+#medio{
+    position: relative;
+    top: 2px;
+    left: 30px;
+    color: white;
+    font-size: 32px;
+}
+
+#txtMedio{
+    position: relative;
+    color: black;
+    font-size: 20px;
+    font-family: Century Gothic, Century Gothic;
+    top: 50px;
+}
